@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Skills from './Skills/skills.js';
 import Header from './Header/header.js';
+import About from './About/about.js';
 import Landing from './Landing/landing.js';
 import Scroll from 'react-scroll';
 import Logo from './Header/img/mh-logo-white.png';
@@ -58,44 +59,49 @@ class App extends Component {
             <div className="App">
                 <div className="header-menu">
                     <div className="header-logo">
-                        <img src={Logo}/>
+                        <Link activeClass="active" className="Landing" to="Landing" spy={true} smooth={true} duration={1500}><img src={Logo}/></Link>
+
                     </div>
                     <div className="header-space"></div>
 
                     <div className="menu-items">
                         <p>
-                            <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={1000}>About</Link>
+                            <Link activeClass="active" className="About" to="About" spy={true} smooth={true} duration={1500}>About</Link>
                         </p>
                         <p>
-                            <Link activeClass="active" className="test2" to="test2" spy={true} smooth={true} duration={500}>Process</Link>
+                            <Link activeClass="active" className="Process" to="Process" spy={true} smooth={true} duration={1500}>Process</Link>
                         </p>
                         <p>
-                            <Link activeClass="active" className="test3" to="test3" spy={true} smooth={true} duration={500}>Work</Link>
+                            <Link activeClass="active" className="Work" to="Work" spy={true} smooth={true} duration={1500}>Work</Link>
                         </p>
                         <p>
-                            <Link activeClass="active" className="test4" to="test4" spy={true} smooth={true} duration={500}>Contact</Link></p>
+                            <Link activeClass="active" className="Contact" to="Contact" spy={true} smooth={true} duration={1500}>Contact</Link></p>
 
                     </div>
 
                 </div>
-            
-
-                <Element name="test1" className="element intro-wallpaper">
+                <Element name="Landing" className="element intro-wallpaper">
 
                     <Header/>
                     <Landing />
 
                 </Element>
 
-                <Element name="test2" className="element">
+                <Element name="About" className="element about-page">
+
+                    <About/>
+
+                </Element>
+
+                <Element name="Process" className="element">
                     <Skills/>
                 </Element>
 
-                <Element name="test3" className="element">
-                    <Portfolio/>
+                <Element name="Work" className="element">
+                    <Portfolio/>hi
                 </Element>
 
-                <Element name="test4" className="element"></Element>
+                <Element name="Contact" className="element"></Element>
 
                 <Element name="test5" className="element">
                     test 5

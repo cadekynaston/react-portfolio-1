@@ -1,5 +1,35 @@
-
-
+/*
+.
+.
+.
+.
+.
+Flex
+.
+.
+.
+.*/
+.flex{
+    display: flex;
+}
+.flex-direction-columnn{
+    flex-direction: column;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-space-around{
+    justify-content: space-around;
+}
+.ai-center{
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
+.caps{
+    text-transform: uppercase;
+}
 
 /*.
 .
@@ -12,14 +42,23 @@
 .
 */
 .intro-wallpaper{
-    background-color: teal;
+    background: url('./Header/img/waterfall.jpeg');
+    background-size: cover;
+    background-position: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 .header-menu{
   display: flex;
   height: 80px;
-  background-color: #bbbbbb;
+  background-color: black;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
+  width: 100%;
+
 
 }
 .menu-items{
@@ -71,7 +110,7 @@ Landing
 */
 .landing-page{
   display: flex;
-  height: 85vh;
+  height: 100vh;
   flex-direction: column;
 
 
@@ -130,17 +169,27 @@ About
 ..
 ..
 ..*/
+.about-page{
+    background: white;
+}
+
+
+
+
+
+
+
+
+
 .element {
-  height:1000px;
 
   font-size: 45px;
- 
   padding-top:55px;
   padding-left:10px;
 }
 
 .active {
-  color:red !important;
+  color:teal !important;
 }
 .scroll-class{
   color:white;
