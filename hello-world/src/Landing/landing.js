@@ -64,7 +64,12 @@ class Landing extends Component {
 				</div>
 				 <div className="scroll-down">
           			<div>
-						<a onClick={() => scroll.scrollTo(2000)}>	<i className="fa fa-angle-down fa-fw"></i></a>
+						<a onClick={() => scroll.scrollTo(800,{
+                                  duration: 1500,
+                                  delay: 50,
+                                  smooth: true,
+                                })}>
+                        <i className="fa fa-angle-down fa-fw"></i></a>
 
           			</div>
         </div>

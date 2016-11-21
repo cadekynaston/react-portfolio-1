@@ -11,6 +11,11 @@ Flex
 .*/
 .flex{
     display: flex;
+
+}
+.flex-wrap{
+    flex-wrap: wrap;
+    display: flex;
 }
 .flex-direction-columnn{
     flex-direction: column;
@@ -30,7 +35,33 @@ Flex
 .caps{
     text-transform: uppercase;
 }
-
+.fw100{
+font-weight: 100;
+}
+.fw200{
+font-weight: 200;
+}
+.fw300{
+font-weight: 300;
+}
+.fw400{
+font-weight: 400;
+}
+.fw500{
+font-weight: 500;
+}
+.fw600{
+font-weight: 600;
+}
+.fw700{
+font-weight: 700;
+}
+.fw800{
+font-weight: 800;
+}
+.fw900{
+font-weight: 900;
+}
 /*.
 .
 .
@@ -53,7 +84,7 @@ Flex
 .header-menu{
   display: flex;
   height: 80px;
-  background-color: black;
+  background-color: #222222;
   align-items: center;
   justify-content: space-around;
   position: fixed;
@@ -172,11 +203,35 @@ About
 .about-page{
     background: white;
 }
+.i-like{
+    font-size: 55px;
+    margin: 60px 0 60px 0;
+    color:#222222;
+}
+.about-content-title{
+    font-size: 24px;
+    text-align: center;
+    margin: 25px 0 25px 0;
+    color:#222222;
+}
+.about-icons{
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+        color:#222222;
 
+}
+.about-subcontent{
+    font-size: 18px;
+    font-family: "Helvetica Neue";
+    width: 250px;
+    text-align: center;
+    height: 200px;
 
-
-
-
+}
+.about-content{
+        font-size: 65px;
+}
 
 
 
