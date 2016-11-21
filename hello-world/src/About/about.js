@@ -38,7 +38,6 @@ class About extends Component {
 						<div className="about-subcontent fw300">Nothing better than getting a good 8 hours of sleep at night.</div>
                     </div>
                 </div>
-
             </div>
         );
     }
