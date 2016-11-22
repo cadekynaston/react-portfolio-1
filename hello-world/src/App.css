@@ -234,7 +234,47 @@ About
 }
 
 
+/*.
+.
+.
+.
+.
+.Quote
+.
+.
+.
+.*/
+.quote-traveler{
+    background: url('./img/traveler.jpg');
+    background-size: cover;
+    background-position: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55vh;
 
+}
+.quote-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+.john-mayer-quote{
+  font-family:  'sans-serif', Helvetica, Arial, sans-serif;
+      color: white;
+      font-size: 40px;
+      font-weight: 100;
+}
+.john-mayer{
+font-size: 20px;
+color: white;
+ font-family:  'sans-serif', Helvetica, Arial, sans-serif;
+ font-weight: 100;
+ margin-top: 30px;
+}
 
 .element {
 
