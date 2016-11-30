@@ -95,7 +95,7 @@ class App extends Component {
 
                 </Element>
                 <Quote/>
-                <Element name="Process" className="element">
+                <Element name="Process" className="element skills-background">
                     <Skills/>
                 </Element>
 

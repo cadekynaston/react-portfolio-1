@@ -289,3 +289,24 @@ color: white;
 .scroll-class{
   color:white;
 }
+
+/*
+//
+//
+//
+//
+skills
+//
+//
+//
+//*/
+.skills-background{
+    background-color:  white;
+}
+.skills-description{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: -40px;
+}

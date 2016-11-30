@@ -49,10 +49,30 @@ class Skills extends Component {
   }
   render() {
     return (
-             <div className="scroll-class">
+        <div>
+            <div className="text-align-center caps fw900 i-like">
+                Skills
+            </div>
+            <div className="skills-description text-align-center fw300">Some of my favorite frameworks / environments. </div>
+
+            <div className="flex jc-center">
+                <div className="flex">
+                    <div>LOGO</div>
+                    <div>JS</div>
+                </div>
+                <div className="flex">
+                    <div>LOGO</div>
+                    <div>UI / UX</div>
+                </div>
+                <div className="flex">
+                    <div>LOGO</div>
+                    <div>LAUNCH</div>
+                </div>
 
 
-      </div>
+            </div>
+
+        </div>
     );
   }
 }
