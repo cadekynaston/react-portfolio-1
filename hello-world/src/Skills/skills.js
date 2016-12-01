@@ -57,16 +57,44 @@ class Skills extends Component {
 
             <div className="flex jc-center">
                 <div className="flex">
-                    <div>LOGO</div>
-                    <div>JS</div>
+                    <div className="circle-border ">
+                        <div><i className="fa fa-code fa-1x about-icons fa-custom-circle"></i></div>
+
+
+                        </div>
+                        <div>
+                            <div>JS</div>
+                            <ul>
+                                <li>React</li>
+                                <li>jQuery</li>
+                                <li>Angular</li>
+                                <li>Brackets</li>
+                            </ul>
+                        </div>
                 </div>
                 <div className="flex">
-                    <div>LOGO</div>
-                    <div>UI / UX</div>
+                    <div><i className="fa fa-desktop fa-1x about-icons"></i></div>
+                    <div>
+                        <div>UI / UX</div>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>Illustrator</li>
+                            <li>Code Pen</li>
+                            <li>Sketch</li>
+                        </ul>
+                    </div>
                 </div>
                 <div className="flex">
-                    <div>LOGO</div>
-                    <div>LAUNCH</div>
+                    <div><i className="fa fa-rocket fa-1x about-icons"></i></div>
+                    <div>
+                        <div>LAUNCH</div>
+                        <ul>
+                            <li>Mongo</li>
+                            <li>Git Hub</li>
+                            <li>Heroku</li>
+                            <li>Sql</li>
+                        </ul>
+                    </div>
                 </div>
 
 
