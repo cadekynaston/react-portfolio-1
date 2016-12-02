@@ -1,3 +1,4 @@
+
 /*
 .
 .
@@ -20,6 +21,9 @@ Flex
 .flex-direction-columnn{
     flex-direction: column;
 }
+.flex-direction-row{
+    flex-direction: row;
+}
 .jc-center{
     justify-content: center;
 }
@@ -31,6 +35,9 @@ Flex
 }
 .text-align-center{
     text-align: center;
+}
+.margin-auto{
+    margin:auto;
 }
 .caps{
     text-transform: uppercase;
@@ -302,13 +309,15 @@ skills
 //*/
 .skills-background{
     background-color:  white;
+    widows: 100%;
+    padding: 50px 0 0 0;
+    height: 100%;
 }
 .skills-description{
     font-family: "Helvetica Neue", Arial, sans-serif;
         color: black;
         font-size: 18px;
-        font-weight: 100;
-        margin-top: -40px;
+
         margin-bottom: 40px;
 }
 .circle-border{
@@ -322,5 +331,44 @@ skills
     transition: .3s;
 }
 .fa-custom-circle{
-        padding: 15px 0px 0px 15px;
+        padding: 18px 0px 0px 17px;
+}
+.sub-skills-bullets{
+    font-size: 16px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 2;
+
+
+}
+.skill-title{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+.skill-width{
+background-color: teal;
+}
+.sub-skill-height{
+
+    height: 200px;
+    height: 200px;
+    width: 19%;
+    display: flex;
+    justify-content: space-around;
+}
+.skill-margin-top{
+    padding-top: 60px;
+}
+.skill-flex-width{
+    width: 70%;
+}
+.skill-thirds{
+    width: 240px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+}
+.skill-bottom-padding{
+    margin-bottom: 80px;
 }
