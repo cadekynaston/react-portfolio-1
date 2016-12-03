@@ -6,6 +6,7 @@ import Header from './Header/header.js';
 import About from './About/about.js';
 import Landing from './Landing/landing.js';
 import Quote from './Quote/quote.js';
+import Quote2 from './Quote/quote2.js';
 
 import Scroll from 'react-scroll';
 import Logo from './Header/img/mh-logo-white.png';
@@ -98,9 +99,9 @@ class App extends Component {
                 <Element name="Process" className="element skills-background">
                     <Skills/>
                 </Element>
-
-                <Element name="Work" className="element">
-                    <Portfolio/>hi
+                <Quote2/>
+                <Element name="Work" className="element portfolio" >
+                    <Portfolio/>
                 </Element>
 
                 <Element name="Contact" className="element"></Element>

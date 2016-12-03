@@ -368,7 +368,70 @@ background-color: teal;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: space-around;
+    margin-bottom: 35px;
+
 }
 .skill-bottom-padding{
     margin-bottom: 80px;
+}
+.quote-mountain{
+    background: url('./img/mountain.jpeg');
+    background-size: cover;
+    background-position: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:70vh;
+
+}
+.mountain-quote {
+    font-size: 18px;
+    color: white;
+    font-family: 'sans-serif', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+}
+.mountain-title{
+font-size: 55px;
+color: white;
+}
+
+
+
+
+/*..
+..
+..
+..
+..
+portfolio
+..
+..
+..
+..*/
+.portfolio{
+    background-color: white;
+}
+.project-subtext{
+    font-size: 20px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 2;
+}
+.project-buttons {
+    padding: 5px 20px 5px 20px;
+    border: solid black thin;
+    margin: 20px -3px 30px 13px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.project-buttons:hover{
+    border: none;
+    color:white;
+    background-color: #42C4AB;
+    border: solid #42C4AB thin;
+    cursor: pointer;
 }
