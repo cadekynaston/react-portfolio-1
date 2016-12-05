@@ -435,3 +435,6 @@ portfolio
     border: solid #42C4AB thin;
     cursor: pointer;
 }
+.project-image{
+    height: 100px;;
+}

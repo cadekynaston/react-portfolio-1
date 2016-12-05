@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import Scroll from 'react-scroll';
 
-var Link = Scroll.Link;
-var DirectLink = Scroll.DirectLink;
-var Element = Scroll.Element;
+
+
+
 var Events = Scroll.Events;
 var scroll = Scroll.animateScroll;
 var scrollSpy = Scroll.scrollSpy;
 
-var durationFn = function(deltaTop) {
-    return deltaTop;
-};
 
 class Landing extends Component {
     componentDidMount() {
@@ -47,7 +44,7 @@ class Landing extends Component {
     }
 	render() {
 		return (
-			<div className = "landing-page">
+			<div className="landing-page">
 				<div className="intro-content">
 
 					<div className="landing-text">

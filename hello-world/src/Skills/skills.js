@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
 import Scroll from 'react-scroll';
-import Portfolio from '../Portfolio/portfolio.js'
 
-var Link = Scroll.Link;
-var DirectLink = Scroll.DirectLink;
-var Element = Scroll.Element;
+
+
+
+
 var Events = Scroll.Events;
 var scroll = Scroll.animateScroll;
 var scrollSpy = Scroll.scrollSpy;
 
-var durationFn = function(deltaTop) {
-    return deltaTop;
-};
+
 
 class Skills extends Component {
     componentDidMount() {

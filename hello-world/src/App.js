@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import Skills from './Skills/skills.js';
 import Header from './Header/header.js';
@@ -14,15 +14,13 @@ import Logo from './Header/img/mh-logo-white.png';
 import Portfolio from './Portfolio/portfolio.js'
 
 var Link = Scroll.Link;
-var DirectLink = Scroll.DirectLink;
+
 var Element = Scroll.Element;
 var Events = Scroll.Events;
 var scroll = Scroll.animateScroll;
 var scrollSpy = Scroll.scrollSpy;
 
-var durationFn = function(deltaTop) {
-    return deltaTop;
-};
+
 
 class App extends Component {
     componentDidMount() {
@@ -62,7 +60,7 @@ class App extends Component {
             <div className="App">
                 <div className="header-menu">
                     <div className="header-logo">
-                        <Link activeClass="active" className="Landing" to="Landing" spy={true} smooth={true} duration={1500}><img src={Logo}/></Link>
+                        <Link activeClass="active" className="Landing" to="Landing" spy={true} smooth={true} duration={1500}><img alt=''src={Logo}/></Link>
 
                     </div>
                     <div className="header-space"></div>
