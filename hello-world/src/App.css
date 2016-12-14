@@ -436,5 +436,18 @@ portfolio
     cursor: pointer;
 }
 .project-image{
-    height: 100px;;
+    width: 300px;
+    padding: 20px;
+    transition: .5s;
+    filter: grayscale(0);
+}
+.project-image:hover{
+    width: 320px;
+
+    filter: grayscale(1);
+}
+.max-width{
+    max-width: 1200px;
+
+margin: auto;
 }
