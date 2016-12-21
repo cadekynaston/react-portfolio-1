@@ -18,9 +18,9 @@ class Portfolio extends Component {
 
 		let project = projects.filter(data => this.state.filterValue === "all"|| data.id === this.state.filterValue).map(function(data, i ){
 			return <div className='flex-wrap jc-center ' value={data.id} key={i}>
-									<div>
+									<div className="image-conatiner">
 										<img alt=''className="project-image"src={data.url}/>
-									
+
 									</div>
 
 							</div>

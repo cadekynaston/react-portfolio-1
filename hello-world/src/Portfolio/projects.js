@@ -37,7 +37,8 @@ let projects = [
 				description:'This is an app',
 				id:'web',
 				src:'',
-			}
+			},
+
 ]
 
 export default projects;

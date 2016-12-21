@@ -439,7 +439,6 @@ portfolio
     width: 300px;
     padding: 20px;
     transition: .5s;
-    filter: grayscale(0);
 }
 .project-image:hover{
     width: 320px;
@@ -448,6 +447,29 @@ portfolio
 }
 .max-width{
     max-width: 1200px;
+    margin: auto;
+}
+.image-conatiner{
 
-margin: auto;
+}
+@media (max-width: 600px) {
+.element {
+    padding:0px;
+}
+.project-image{
+    width: 100%;
+    padding: 0px;
+    transition: .1s;
+
+}
+.project-image:hover{
+    width: 100%;
+    filter: grayscale(0);
+
+
+}
+.image-conatiner{
+        height: 100px;
+}
+
 }
